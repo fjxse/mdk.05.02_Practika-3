@@ -85,18 +85,18 @@ body {
   .header {
     height: 88px;
     padding: 0 16px;
-  }
 
-  .header__brand {
-    gap: 16px;
-  }
+    &__brand {
+      gap: 16px;
+    }
 
-  .header__actions {
-    gap: 16px;
-  }
+    &__actions {
+      gap: 16px;
+    }
 
-  .header__contacts,
-  .header__divider--actions {
-    display: none;
+    &__contacts,
+    &__divider--actions {
+      display: none;
+    }
   }
 }
